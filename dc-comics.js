@@ -1,4 +1,3 @@
-<script>
 let fumetti = [
     {
         thumb: "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
@@ -73,18 +72,3 @@ let fumetti = [
         type: "graphic novel",
     },
 ];
-</script>
-<template>
-    <main>
-        <div v-for="element in fumetti">
-            <p>{{ element.price }}</p>
-            <p>{{ element.series }}</p>
-            <p> {{ element.type }}</p>
-        </div>
-    </main>
-</template>
-<style scoped>
-main {
-    background-color: #1c1c1c;
-}
-</style>
