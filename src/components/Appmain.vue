@@ -76,6 +76,7 @@ let fumetti = [
 </script>
 <template>
     <main>
+        <div class="button">Current series</div>
         <div v-for="element in fumetti">
             <p>{{ element.price }}</p>
             <p>{{ element.series }}</p>
@@ -86,5 +87,11 @@ let fumetti = [
 <style scoped>
 main {
     background-color: #1c1c1c;
+}
+
+.button {
+    background-color: #0282f9;
+    color: white;
+    width: 7rem;
 }
 </style>
