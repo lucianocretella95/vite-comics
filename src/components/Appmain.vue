@@ -86,7 +86,7 @@ export default {
         <div class="button">Current series</div>
         <div class="thumbnails">
             <div v-for="element in fumetti">
-                <img style="width: 10rem;" :src="element.thumb">
+                <img style="width: 9rem;" :src="element.thumb">
                 <p>{{ element.price }}</p>
                 <p>{{ element.series }}</p>
                 <p> {{ element.type }}</p>
